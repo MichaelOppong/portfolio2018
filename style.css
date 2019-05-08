@@ -1,4 +1,4 @@
-.row{   
+.row{
     display:flex;
     justify-content:space-around;
     background-color:#101e1b;
@@ -9,7 +9,7 @@
     width:20%;
     border-radius:50%;
     border:double 5px #1e2a2d;
-   
+
 }
 .mid{
     background-color:white;
@@ -21,7 +21,7 @@
     margin-bottom:5px;
 }
 .aboutme{
-    border:1px solid black; 
+    border:1px solid black;
 }
 a{
     text-decoration:none;
@@ -36,9 +36,32 @@ a{
     align-items:center;
     font-family: 'Cinzel', serif;
     background-color: #1e2a2d	;
+    padding:10px;
+    border: double #fdfde0 5px;
 }
 h3{
     line-height: 1.8;
     margin-left:50px;
     margin-right:50px;
+}
+.contactImg{
+    width:60%;
+    margin:auto;
+    border: double #fdfde0 5px;
+}
+.social{
+    width:50px;
+}
+.contactContainer{
+    display:flex;
+    justify-content:space-around;
+    background-color: #1e2a2d;
+    padding-top:5px;
+}
+.portfolioProject img{
+    width:80%;
+    display:block;
+}
+.port{
+    margin:auto;
 }
